@@ -19,35 +19,41 @@ Este proyecto es una aplicación web desarrollada en **Java** utilizando el fram
 
 ---
 
+## ♦️ Estructura Base de Datos
+
+![image](https://github.com/user-attachments/assets/ccb54f07-2005-42ff-a1ec-121912d1420f)
+
+# 📊 Tabla: ESTUDIANTE
+
+La tabla **ESTUDIANTE** es la principal en el sistema y almacena los datos personales y de contacto de cada estudiante. Es utilizada por la aplicación para realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar).
+
+---
+
+## 📋 Estructura de la tabla
+
+| Columna     | Tipo           | Descripción                                    |
+|-------------|----------------|------------------------------------------------|
+| **ID**      | INTEGER UNIQUE | Identificador único de cada estudiante. Es la clave primaria (PK). |
+| **NOMBRE**  | VARCHAR(100)   | Nombre del estudiante (máximo 100 caracteres). |
+| **APELLIDO**| VARCHAR(100)   | Apellido del estudiante (máximo 100 caracteres). |
+| **TELEFONO**| VARCHAR(10)    | Número de teléfono del estudiante (máximo 10 caracteres). |
+| **EMAIL**   | VARCHAR(50)    | Dirección de correo electrónico del estudiante (máximo 50 caracteres). |
+
+
 ## 🛠️ Tecnologías y herramientas
 
 - **Lenguaje**: Java
 - **Framework principal**: Spring Boot
 - **Persistencia**: Spring Data JPA
-- **Base de datos**: [Especificar la base de datos utilizada, por ejemplo, MySQL, PostgreSQL, H2]
+- **Base de datos**: MySQL
 - **Gestión de dependencias**: Maven
-- **Servidor de aplicaciones**: [Especificar si se utiliza uno en particular, por ejemplo, Apache Tomcat]
 
 ---
 
 ## 📂 Estructura del proyecto
 
-gestion-estudiantes-spring/ 
-├── src/ │ 
-  ├── main/ │  
-    ├── java/ │ 
-    │ └── com.example.gestionestudiantes/ │  
-    │ ├── controller/ │  
-    │ ├── model/ │  
-    │ ├── repository/ │  
-    │ └── service/ │ 
-    ├── resources/ │ 
-    │ ├── application.properties │ 
-    │ └── templates/ │
-  ├── test/ 
-  ├── .gitignore 
-  ├── pom.xml 
-  └── README.md
+![image](https://github.com/user-attachments/assets/6497b482-eb1a-4234-8068-994834ebb2e7)
+
 
 ## 🧑‍💻 Cómo ejecutar el proyecto
 
